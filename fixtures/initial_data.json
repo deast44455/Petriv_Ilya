@@ -1,0 +1,101 @@
+[
+  {
+    "model": "assets.category",
+    "pk": 1,
+    "fields": {
+      "name": "Компьютеры",
+      "description": "Компьютеры, ноутбуки и комплектующие",
+      "prefix": "PC"
+    }
+  },
+  {
+    "model": "assets.category",
+    "pk": 2,
+    "fields": {
+      "name": "Оргтехника",
+      "description": "Принтеры, сканеры, копиры",
+      "prefix": "OT"
+    }
+  },
+  {
+    "model": "assets.category",
+    "pk": 3,
+    "fields": {
+      "name": "Мебель",
+      "description": "Столы, стулья, шкафы",
+      "prefix": "MB"
+    }
+  },
+  {
+    "model": "assets.category",
+    "pk": 4,
+    "fields": {
+      "name": "Сетевое оборудование",
+      "description": "Коммутаторы, маршрутизаторы, точки доступа",
+      "prefix": "NET"
+    }
+  },
+  {
+    "model": "assets.category",
+    "pk": 5,
+    "fields": {
+      "name": "Прочее",
+      "description": "Прочее оборудование и инвентарь",
+      "prefix": "OTHER"
+    }
+  },
+  {
+    "model": "assets.location",
+    "pk": 1,
+    "fields": {
+      "name": "Главный офис",
+      "address": "г. Москва, ул. Примерная, д. 1",
+      "description": "Главный офис компании"
+    }
+  },
+  {
+    "model": "assets.location",
+    "pk": 2,
+    "fields": {
+      "name": "Склад",
+      "address": "г. Москва, ул. Складская, д. 5",
+      "description": "Основной склад"
+    }
+  },
+  {
+    "model": "assets.location",
+    "pk": 3,
+    "fields": {
+      "name": "Серверная",
+      "address": "г. Москва, ул. Примерная, д. 1, каб. 001",
+      "description": "Серверная комната"
+    }
+  },
+  {
+    "model": "assets.department",
+    "pk": 1,
+    "fields": {
+      "name": "ИТ отдел",
+      "description": "Отдел информационных технологий"
+    }
+  },
+  {
+    "model": "assets.department",
+    "pk": 2,
+    "fields": {
+      "name": "Бухгалтерия",
+      "description": "Бухгалтерский отдел"
+    }
+  },
+  {
+    "model": "assets.supplier",
+    "pk": 1,
+    "fields": {
+      "name": "ООО \"ТехноПоставка\"",
+      "inn": "7700000001",
+      "contact": "Иванов Иван Иванович",
+      "phone": "+7 (495) 000-00-00",
+      "email": "info@technopostavka.ru"
+    }
+  }
+]
